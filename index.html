@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAG Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+      <h2>🧠 RAG Assistant</h2>
+      <button class="new-chat">+ New Chat</button>
+      <div class="history">
+          <p>Chat History</p>
+      </div>
+  </div>
+
+  <!-- Chat Area -->
+  <div class="chat-container">
+
+      <div class="chat-header">
+          <h3>Chat</h3>
+      </div>
+
+      <div id="chat-box"></div>
+
+      <div class="input-area">
+          <textarea id="user-input" placeholder="Message your AI..."></textarea>
+          <button id="send-btn">Send</button>
+      </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

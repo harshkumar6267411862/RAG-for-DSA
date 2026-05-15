@@ -3,9 +3,7 @@ import os
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.document_loaders import TextLoader, DirectoryLoader,PDFMinerLoader 
 from langchain_text_splitters import CharacterTextSplitter #for chunking
-from langchain_openai import OpenAIEmbeddings
-from langchain_chroma import Chroma #vector database
-from dotenv import load_dotenv
+
 
 load_dotenv() #to use openai's api
 def load_documents(docs_path="docs"):
